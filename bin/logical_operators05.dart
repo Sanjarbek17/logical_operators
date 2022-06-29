@@ -8,5 +8,8 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
+bool func(a, b) {
+  return a % 2 == 1 && b % 2 == 1;
+}
 
 void main() {}
