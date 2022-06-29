@@ -8,5 +8,8 @@ Given two integers a, b,  check the following statement "At least one of the num
     Returns:
         bool: answer
 */
+bool func(a, b) {
+  return a % 2 != 0 || b % 2 != 0;
+}
 
 void main() {}

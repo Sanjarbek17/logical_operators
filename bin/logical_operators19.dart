@@ -8,5 +8,8 @@ Given a three digit integer x, return true if x is palindrome integer.
   Returns:
       bool: answer
 */
+bool func(x) {
+  return x % 10 == x ~/ 10;
+}
 
 void main() {}

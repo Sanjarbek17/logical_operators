@@ -7,5 +7,8 @@ Given integer a,  check the following statement "The integer is a five-digit num
     Returns:
         bool: answer
 */
+bool func(a) {
+  return a > 9999 && a < 100000;
+}
 
 void main() {}
