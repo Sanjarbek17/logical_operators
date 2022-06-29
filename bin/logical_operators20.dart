@@ -16,7 +16,7 @@ bool func(n) {
   x3 = n ~/ 100 % 10;
   x2 = n ~/ 1000 % 10;
   x1 = n ~/ 10000 % 10;
-  return 5 - (x1 + x2 + x3 + x4 + x5) >= 3;
+  return (x1 + x2 + x3 + x4 + x5) >= 3;
 }
 
 void main() {}

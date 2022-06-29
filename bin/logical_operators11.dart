@@ -11,4 +11,6 @@ bool func(a) {
   return a > 99 && a < 1000;
 }
 
-void main() {}
+void main() {
+  print(func(433));
+}
